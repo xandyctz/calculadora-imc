@@ -1,2 +1,3 @@
-# calculadora-imc
-Fazendo uma calculadora de imc para aprender Javascript.
+# Calculadora de IMC
+
+> Simples calculadora de IMC para aprender Javascript

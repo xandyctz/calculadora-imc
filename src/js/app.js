@@ -1,5 +1,5 @@
 function calcular() {
-    // variaveis globais da function
+    // variaveis globais da function 
     var altura, peso, altura2, imc, resultado;
 
     // pega o que o usuario escreveu no campo altura

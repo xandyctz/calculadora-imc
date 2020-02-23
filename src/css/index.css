@@ -4,6 +4,7 @@ body {
     background-color: #08B;
 
 }
+
 /* INICIO DO ARTICLE */
 
 /* container do article */
@@ -56,6 +57,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
 }
+
 /* LABEL MENOR ex: 1,65 */
 .text-first>.text-segund {
     font-size: 10pt;
@@ -72,6 +74,7 @@ body {
 
 
 }
+
 /* botao */
 .btn {
     border-radius: 15px;
@@ -82,6 +85,7 @@ body {
     font-size: 12pt;
     color: white;
 }
+
 .seuimc {
     visibility: hidden;
     display: block;
@@ -91,7 +95,7 @@ body {
     padding: 5px;
     margin-top: 15px;
     border-radius: 10px;
-    
+
 }
 
 /* FIM DO ARTICLE */
@@ -124,6 +128,7 @@ td {
     color: white;
 
 }
+
 /* para deixar o grau de obesidade no centro */
 .grau-center {
     text-align: center;

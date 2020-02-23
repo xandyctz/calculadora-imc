@@ -12,7 +12,7 @@ function calcular() {
     if (altura == '' || peso == '') {
         alert('O campo ALTURA ou PESO precisa ser preenchido!');
     } else {
-        //calculo imc
+        // calculo imc
         altura2 = altura * altura;
         // deixar o numero decimal 2 caracteres ex: 2.72
         altura2 = parseFloat(altura2.toFixed(2));
@@ -25,7 +25,7 @@ function calcular() {
 
         resultado = document.querySelector('.seuimc');
 
-        //edita o element span no html
+        // edita o element span no html
         resultado.innerHTML = "SEU IMC: " + imc;
 
         // deixa o span visivel no html

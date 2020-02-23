@@ -4,6 +4,7 @@ body {
     background-color: #08B;
 
 }
+/* INICIO DO ARTICLE */
 
 /* container do article */
 .container {
@@ -11,9 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 35em;
-        
-    
 }
+
 /* section */
 .calculator {
     display: block;
@@ -21,7 +21,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     background-color: #08B;
-    color : white;
+    color: white;
 }
 
 /* continer significadoimc */
@@ -38,23 +38,26 @@ body {
     border-bottom: 2px solid black;
     width: 160px;
 }
+
 /* P */
 .imc-sig {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
 
 }
+
 /* SPAN do significado do imc */
 .significado-imc span {
     font-weight: bold;
 }
 
 /* label */
-.text-first{
+.text-first {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
 }
-.text-first > .text-segund {
+/* LABEL MENOR ex: 1,65 */
+.text-first>.text-segund {
     font-size: 10pt;
 }
 
@@ -67,9 +70,9 @@ body {
     border-radius: 10px;
     padding-left: 5px;
 
-    
-}
 
+}
+/* botao */
 .btn {
     border-radius: 15px;
     border: 2px solid rgb(24, 94, 119);
@@ -79,6 +82,8 @@ body {
     font-size: 12pt;
     color: white;
 }
+/* FIM DO ARTICLE */
+
 
 /* TABELA */
 table {
@@ -87,50 +92,49 @@ table {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    
+
 }
 
-.td-primaty  {
+td {
+    padding: 15px 200px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgba(24, 94, 119, .8);
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+/* tituloda tabela */
+.th-primaty {
     background-color: teal;
     padding: 10px 50px 10px 50px;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    
+
+}
+/* para deixar o grau de obesidade no centro */
+.grau-center {
+    text-align: center;
+    font-weight: bold;
 }
 
+/* NIVEL DE PERIGO */
+.magreza {
+    color: rgba(248, 2, 2, .5);
+}
 
-td {
-      padding: 15px 200px 0 0;
-      font-family: Arial, Helvetica, sans-serif;
-      border-bottom: 1px solid rgba(24, 94, 119, .8);
-      border-collapse: collapse;
-  }
-
-
-.center {
-      text-align: center;
-  }
-  
 .normal {
-    border-left: 10px solid green ;
-    padding-left: 5px;
-}
-.sob {
-    border-left: 10px solid rgba(248, 2, 2, 0.3) ;
-    padding-left: 5px;
-}
-.ob {
-    border-left: 10px solid rgba(248, 2, 2, 0.5) ;
-    padding-left: 5px;
-}
-.obg {
-    border-left: 10px solid rgba(248, 2, 2, 1) ;
-    padding-left: 5px;
-}
-.mag {
-    border-left: 10px solid rgba(248, 2, 2, 0.5) ;
-    padding-left: 5px;
+    color: rgb(20, 190, 20);
 }
 
+.sobrepeso {
+    color: rgba(248, 2, 2, .4);
+}
 
+.obesidade2 {
+    color: rgba(248, 2, 2, .5);
+}
+
+.obesidade3 {
+    color: rgba(248, 2, 2, .8);
+}

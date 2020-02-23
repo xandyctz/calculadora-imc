@@ -19,11 +19,11 @@
         
     </section>
         <section class="calculator">
-            <label class="text-first">Altura<abbr class="text-segund"> (ex: 1,65)</abbr></label>
-            <input class="input-first" type="text" placeholder="Metros">
+            <label class="text-first">Altura<abbr class="text-segund"> (ex: 1.65)</abbr></label>
+            <input id="altura" class="input-first" type="text" placeholder="Metros">
             <label class="text-first">Peso <abbr class="text-segund">(ex: 80.5)</abbr></label>
-            <input class="input-first" type="text" placeholder="Quilos">
-            <button class="btn" type="button">Calcular</button>
+            <input id="peso" class="input-first" type="text" placeholder="Quilos">
+            <button class="btn" type="button" onclick="calcular()">Calcular</button>
             <span class="seuimc">SEU IMC: </span>
         </section>
     </article>
@@ -42,7 +42,7 @@
             <td class="magreza">MAGREZA</td>
             <td class="grau-center magreza">0</td>
         </tr>
-        <tr>
+        <tr class="select">
             <td>ENTRE 18,5 E 24,9</td>
             <td class="normal">NORMAL</td>
             <td class="grau-center normal">0</td>

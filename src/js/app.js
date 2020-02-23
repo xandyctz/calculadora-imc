@@ -21,8 +21,6 @@ function calcular() {
 
         imc = parseFloat(imc.toFixed(1));
 
-        console.log(imc);
-
         resultado = document.querySelector('.seuimc');
 
         // edita o element span no html

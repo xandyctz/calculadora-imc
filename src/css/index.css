@@ -76,7 +76,7 @@ body {
 }
 
 /* botao */
-.btn {
+/*.btn {
     border-radius: 15px;
     border: 2px solid rgb(24, 94, 119);
     margin-top: 10px;
@@ -84,7 +84,51 @@ body {
     padding: 10px;
     font-size: 12pt;
     color: white;
-}
+}*/
+
+/* Botao Gelatina */
+.btn {
+  display: inline-block;
+  font-family: Arial;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border-radius: 3px;
+  background-color: rgb(24, 94, 119);
+  -webkit-box-shadow: 0 0 0 -2px #ddd, 0 0 0 -1px #f46;
+  border: none;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s; }
+  .btn:hover, .btn:focus {
+    box-shadow: 0 0 0 2px rgb(24, 94, 119), 0 0 0 4px rgb(24, 94, 119);
+    -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -moz-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -webkit-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -o-transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+    -webkit-animation: gelatine 0.5s 1;
+    -moz-animation: gelatine 0.5s 1;
+    -webkit-animation: gelatine 0.5s 1;
+    -o-animation: gelatine 0.5s 1;
+    animation: gelatine 0.5s 1; }
+
+/* Keyframes */
+@keyframes gelatine {
+  from,to {
+    -webkit-transition: scale(1, 1);
+    transform: scale(1, 1); }
+  25% {
+    -webkit-transition: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1); }
+  50% {
+    -webkit-transition: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9); }
+  75% {
+    -webkit-transition: scale(0.95, 1.05);
+    transform: scale(0.95, 1.5); } }
 
 .seuimc {
     visibility: hidden;

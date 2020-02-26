@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #08B;
+	
 
 }
 
@@ -10,10 +11,12 @@ body {
 /* container do article */
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+	margin: 0 120px 20px 120px;
     /* height: 35em; */
 }
+
 
 /* section */
 .calculator {
@@ -198,4 +201,88 @@ td {
 
 .obesidade3 {
     color: rgba(248, 2, 2, .8);
+}
+
+
+@media screen and (max-width: 1000px) {
+	.container {
+		display: block;
+		
+		align-items: center
+		
+	}
+	.calculator {
+		display: inline-block;
+		border: 2px solid rgb(27, 107, 136);
+		padding: 20px 80px 20px 80px;
+		border-radius: 15px;
+		margin-left: -40px;
+	}
+	.significado-imc {
+		width: 400px;
+		margin-left: -40px;
+	}
+	.imc-sig {
+		font-size: 15pt;
+	}
+	
+	
+	.text-first {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+
+/* LABEL MENOR ex: 1,65 */
+	.text-first>.text-segund {
+		font-size: 15pt;
+	}
+
+	/* imput */
+	.input-first {
+		display: block;
+		font-size: 15pt;
+		margin: 5px 0 5px 0;
+		height: 35px;
+		width: 250px;
+		border: 2px solid #08B;
+		border-radius: 10px;
+		padding-left: 5px;
+	
+}
+	table {
+		
+		
+		
+		
+		/* margin-bottom: 30px; */
+
+}
+
+	td {
+	
+		padding: 15px 200px 0 0;
+		font-family: Arial, Helvetica, sans-serif;
+		border-bottom: 1px solid rgba(24, 94, 119, .8);
+		border-collapse: collapse;
+		font-weight: bold;
+		
+		
+		
+}
+	.table-line {
+		display: block;
+		font-size: 5pt
+	}
+/* tituloda tabela */
+	.th-primaty {
+	
+    background-color: teal;
+	width: 350px;
+	
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
 }
